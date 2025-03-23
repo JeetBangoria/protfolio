@@ -128,6 +128,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Default style for screens above 385px */
+.dynamic-text::before {
+  content: "I'm a passionate ";
+}
+
+/* When screen width is below 385px, remove the extra text */
+@media (max-width: 381px) {
+  .dynamic-text::before {
+      content: ""; /* Remove "I'm a passionate" */
+  }
+}
+
 /* Header Top */
 #header.header-top {
   height: 80px;
