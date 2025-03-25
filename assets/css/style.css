@@ -297,7 +297,7 @@ section .container {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 465px) {
   .section-title h2::after {
     content: "";
     width: 120px;

@@ -154,6 +154,40 @@
     })
   }
 
+  // Function to remove content inside h2 tags under .section-title when width is less than 465px
+  const adjustSectionTitleContent = () => {
+    const sectionTitles = document.querySelectorAll('.section-title');
+    sectionTitles.forEach(title => {
+      const h2Tags = title.querySelectorAll('h2');
+      if (window.innerWidth < 465) {
+        h2Tags.forEach(h2 => h2.textContent = '');
+      } else {
+        // Restore the original content if needed
+        h2Tags.forEach(h2 => h2.textContent = h2.getAttribute('data-original-content'));
+      }
+    });
+  };
+
+  // Store the original content in a data attribute
+  const storeOriginalContent = () => {
+    const sectionTitles = document.querySelectorAll('.section-title');
+    sectionTitles.forEach(title => {
+      const h2Tags = title.querySelectorAll('h2');
+      h2Tags.forEach(h2 => {
+        h2.setAttribute('data-original-content', h2.textContent);
+      });
+    });
+  };
+
+  // Call the function on window resize
+  window.addEventListener('resize', adjustSectionTitleContent);
+
+  // Call the function on initial load
+  window.addEventListener('load', () => {
+    storeOriginalContent();
+    adjustSectionTitleContent();
+  });
+
   // Function to adjust email layout based on screen width
   const adjustEmailLayout = () => {
     const emailItems = document.querySelectorAll('.email-item');
