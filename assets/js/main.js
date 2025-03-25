@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
+(function () {
   "use strict";
 
   /**
@@ -47,7 +47,7 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
+  on('click', '.mobile-nav-toggle', function (e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -56,7 +56,7 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-  on('click', '#navbar .nav-link', function(e) {
+  on('click', '#navbar .nav-link', function (e) {
     let section = select(this.hash)
     if (section) {
       e.preventDefault()
@@ -89,7 +89,7 @@
 
       if (!header.classList.contains('header-top')) {
         header.classList.add('header-top')
-        setTimeout(function() {
+        setTimeout(function () {
           sections.forEach((item) => {
             item.classList.remove('section-show')
           })
@@ -128,7 +128,7 @@
           }
         })
 
-        setTimeout(function() {
+        setTimeout(function () {
           initial_nav.classList.add('section-show')
         }, 350);
 
@@ -145,7 +145,7 @@
     new Waypoint({
       element: skilsContent,
       offset: '80%',
-      handler: function(direction) {
+      handler: function (direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
@@ -153,5 +153,27 @@
       }
     })
   }
+
+  // Function to adjust email layout based on screen width
+  const adjustEmailLayout = () => {
+    const emailItems = document.querySelectorAll('.email-item');
+    emailItems.forEach(item => {
+      const emailContent = item.querySelector('.email-content');
+      const emailLink = emailContent.querySelector('a');
+      const emailText = emailContent.textContent.trim();
+
+      if (window.innerWidth < 368 || (window.innerWidth >= 992 && window.innerWidth <= 1200)) {
+        emailContent.innerHTML = `<a href="mailto:jeetbangoria@gmail.com" target="_blank" class="email">${emailText}</a>`;
+      } else {
+        emailContent.innerHTML = `${emailText} <a href="mailto:jeetbangoria@gmail.com" target="_blank" class="email"><i class="bi bi-send-fill"></i></a>`;
+      }
+    });
+  };
+
+  // Call the function on window resize
+  window.addEventListener('resize', adjustEmailLayout);
+
+  // Call the function on initial load
+  adjustEmailLayout();
 
 })()
