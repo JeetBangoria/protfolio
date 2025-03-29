@@ -169,7 +169,7 @@
   };
 
   document.addEventListener('DOMContentLoaded', () => {
-    const texts = ["Software Developer Engineer", "SDET Automation Engineer"];
+    const texts = ["Software Developer Engineer in Test", "SDET Automation Engineer"];
     let index = 0;
     let charIndex = 0;
     let currentText = texts[index];
