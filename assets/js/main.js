@@ -169,14 +169,32 @@
   };
 
   document.addEventListener('DOMContentLoaded', () => {
-    const text = "SDET - Automation Engineer";
+    const texts = ["Software Developer Engineer", "SDET Automation Engineer"];
     let index = 0;
+    let charIndex = 0;
+    let currentText = texts[index];
+    const typingSpeed = 100; // Speed of typing
+    const pauseBetweenTexts = 2000; // Pause between texts
 
     const typeText = () => {
-        if (index < text.length) {
-            document.getElementById('animated-text').textContent += text.charAt(index);
-            index++;
-            setTimeout(typeText, 100); // Adjust the speed of typing here
+        if (charIndex < currentText.length) {
+            document.getElementById('animated-text').textContent += currentText.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeText, typingSpeed);
+        } else {
+            setTimeout(eraseText, pauseBetweenTexts);
+        }
+    };
+
+    const eraseText = () => {
+        if (charIndex > 0) {
+            document.getElementById('animated-text').textContent = currentText.substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(eraseText, typingSpeed);
+        } else {
+            index = (index + 1) % texts.length;
+            currentText = texts[index];
+            setTimeout(typeText, typingSpeed);
         }
     };
 
