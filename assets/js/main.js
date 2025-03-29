@@ -168,6 +168,21 @@
     });
   };
 
+  document.addEventListener('DOMContentLoaded', () => {
+    const text = "SDET - Automation Engineer";
+    let index = 0;
+
+    const typeText = () => {
+        if (index < text.length) {
+            document.getElementById('animated-text').textContent += text.charAt(index);
+            index++;
+            setTimeout(typeText, 100); // Adjust the speed of typing here
+        }
+    };
+
+    typeText();
+});
+
   // Store the original content in a data attribute
   const storeOriginalContent = () => {
     const sectionTitles = document.querySelectorAll('.section-title');
