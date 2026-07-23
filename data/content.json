@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "name": "Jeet Bangoria",
+    "email": "jeetbangoria@gmail.com",
+    "phone": "+91 7990651205",
+    "location": "Bengaluru, India",
+    "degree": "B.Tech (Computer Science & Engineering)",
+    "university": "Vellore Institute of Technology",
+    "linkedin": "https://www.linkedin.com/in/jeetbangoria/",
+    "github": "",
+    "photo": "assets/img/me.png"
+  },
+  "profiles": {
+    "sde": {
+      "role": "Software Development Engineer",
+      "typingTexts": [
+        "Software Development Engineer",
+        "Java Backend Developer"
+      ],
+      "heroTagline": "I build secure, scalable backend systems — engineered with a tester's eye for reliability.",
+      "stats": [
+        { "value": "2+", "label": "Years Experience" },
+        { "value": "85%+", "label": "Test Coverage" },
+        { "value": "48%", "label": "Infra Cost Saved" },
+        { "value": "40%", "label": "Faster Incident Response" }
+      ],
+      "about": [
+        "**🚀 Java Backend Developer** with 2+ years of experience building secure, scalable microservices and enterprise-grade APIs using **Java, Spring Boot, and RESTful services**. Adept at designing clean, resilient systems and integrating with both **SQL and NoSQL** databases. Hands-on with **AWS** and crafting robust **CI/CD pipelines** for fast, safe deployments.",
+        "**🛠️ Base foundation** – Started my journey as a Software Engineer where I built automation frameworks, wrote reusable Java utilities, and contributed to system reliability. That hands-on exposure sparked a passion for backend development and led me to learn **Spring Boot, database optimization, and DSA**.",
+        "**💡 Problem-Solver at heart** – I love building things that work — efficiently and at scale. From writing unit-tested Java services to optimizing queries and designing fault-tolerant APIs, I aim to blend development velocity with long-term stability.",
+        "**📈 Transitioning into full-time backend engineering** – Seeking opportunities where I can architect performant systems, write production-grade code, and contribute to meaningful tech challenges. Passionate about clean code, cloud-native services, and continuous improvement.",
+        "**🎯 Unique Edge** – My SDET background means I naturally prioritize **testability, observability, and performance** from day one — building systems that are not just functional, but dependable.",
+        "**🌱 Mission** – To grow as a backend engineer, contribute to real-world products, and work in environments that value learning, mentorship, and engineering excellence."
+      ],
+      "skills": [
+        {
+          "category": "Programming & Scripting",
+          "items": ["Java", "Python", "Spring Boot", "FastAPI", "MySQL", "MongoDB", "Git / GitHub / BitBucket"]
+        },
+        {
+          "category": "Problem-Solving & Analytics",
+          "items": ["Data Structures & Algorithms", "Code / SQL Optimization", "Optimization Strategies", "DataDog Monitoring", "Cryptographic Methods"]
+        },
+        {
+          "category": "Agile, DevOps & CI/CD",
+          "items": ["Jenkins", "Kubernetes", "Docker", "GitHub Actions", "AWS", "Agile Practices"]
+        },
+        {
+          "category": "Automation & Quality Assurance",
+          "items": ["Selenium", "Appium", "Cypress", "API Testing (REST/SOAP)", "Postman", "RestAssured", "TestNG", "Maven", "PyTest", "JUnit", "JMeter Performance Testing"]
+        }
+      ],
+      "experience": [
+        {
+          "role": "Associate Software Engineer",
+          "company": "Enphase Energy",
+          "location": "Bengaluru, Karnataka, India",
+          "period": "Jul 2023 – Present",
+          "bullets": [
+            "Reduced test execution time by 55% through optimized integration, regression, and load testing for real-time APIs built on FastAPI, Spring Boot, J2EE, using JMeter and DataDog for performance measurement.",
+            "Saved 48% infrastructure costs by migrating from static Jenkins agents to ephemeral Docker-based Jenkins agents on AWS EC2, improving scalability and resource utilization.",
+            "Eliminated third-party licensing costs by building in-house self-healing and visual testing features like image comparison within the Selenium automation framework, replacing tools like Applitools or Browser.",
+            "Designed and maintained CI/CD pipelines using Jenkins and GitHub Actions, integrated with Docker, improving test efficiency by 85% and achieving 90%+ sanity and regression suite coverage.",
+            "Automated JIRA workflows such as bug creation, high-priority issue tracking, and test result summarization, improving team productivity and reducing manual effort by 60%.",
+            "Developed secure data modules using RSA, AES, and Digital Signature algorithms, reverse-engineered Java and Ruby decryption logic, and built Python-based encryption/compression pipelines for secure data transmission.",
+            "Built and deployed a real-time production health dashboard using FastAPI, MySQL, JavaScript, and AWS CloudWatch, reducing incident response time by 40%.",
+            "Collaborated with backend teams using Spring Boot, Hibernate, Kafka, and Microservices to validate APIs, implement integration tests, and automate data validations across SQL and NoSQL databases.",
+            "Executed comprehensive end-to-end test suites for web, API, and mobile platforms, focusing on applications developed with Java, FastAPI, and Spring, continuously improving coverage to over 85%."
+          ]
+        },
+        {
+          "role": "Software Engineer Intern",
+          "company": "Enphase Energy",
+          "location": "Bengaluru, Karnataka, India",
+          "period": "Jan 2023 – Jun 2023",
+          "bullets": [
+            "Able to script test cases with coverage and maintenance with improved execution speed of scripts. Enhanced load testing capabilities (through JMeter and DataDog): set up and scripted load tests for real-time APIs and measured performance.",
+            "Achieved 90%+ sanity and regression suite coverage, improved 2 suites to 85%+ range, executed suites and analyzed them on releases.",
+            "Automated other necessary tasks like Jira tasks and other small execution tasks. Gained knowledge in mobile testing to increase testing knowledge for multiple devices.",
+            "Able to do end-to-end testing for many modules in web automation, API, and mobile."
+          ]
+        },
+        {
+          "role": "Research And Development Intern",
+          "company": "Samsung R&D Institute India",
+          "location": "Bangalore",
+          "period": "Mar 2022 – Dec 2022",
+          "bullets": [
+            "Developed an approach to automatically generate valid test cases for given system code.",
+            "Used GTest Testing Framework, Decision-to-decision path graph, and Data Flow testing technique."
+          ]
+        },
+        {
+          "role": "Backend Web Developer Intern",
+          "company": "Engineer's Cradle",
+          "location": "Remote",
+          "period": "Jan 2022 – Mar 2022",
+          "bullets": [
+            "Developed secure authentication systems using Passport.js and Express.js, handling authentication for over 10,000 users across multiple applications.",
+            "Implemented and optimized session management and user authorization flows, reducing authentication-related bugs by 30%.",
+            "Integrated third-party OAuth providers (Google, Facebook, etc.) for seamless user onboarding, increasing sign-up efficiency by 40%.",
+            "Enhanced security protocols, contributing to a reduction in unauthorized access incidents."
+          ]
+        },
+        {
+          "role": "Python Development Associate",
+          "company": "The Entrepreneurship Network",
+          "location": "Remote",
+          "period": "Jul 2021 – Oct 2021",
+          "bullets": [
+            "Developed Python-based solutions for various projects, enhancing functionality and performance."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "CryptSend: Secure Web-Based File Sharing",
+          "tagline": "A secure web-based file-sharing platform using advanced cryptographic algorithms to ensure confidentiality and integrity of shared files.",
+          "tech": ["Django", "HTML/CSS", "JavaScript", "PostgreSQL"],
+          "points": [
+            "💡 Problem: Traditional file-sharing services lack end-to-end encryption, exposing sensitive data to security risks.",
+            "✅ Ensured secure file sharing with zero third-party access.",
+            "✅ End-to-end encryption prevents man-in-the-middle attacks.",
+            "✅ User-friendly platform with seamless encryption & decryption."
+          ]
+        },
+        {
+          "title": "Self-Healing Automation Framework",
+          "tagline": "A self-healing framework that detects broken locators and automatically updates them using AI-based XPath predictions.",
+          "tech": ["Selenium", "Appium", "Python", "Machine Learning", "TensorFlow"],
+          "points": [
+            "💡 Problem: UI locators break often in test automation.",
+            "🎯 Impact: Reduces flaky test failures by 60%, saves debugging time."
+          ]
+        },
+        {
+          "title": "AI-Powered Test Case Generation & Optimization",
+          "tagline": "An AI-powered script that analyzes past defects and auto-generates optimized test cases.",
+          "tech": ["Python", "OpenAI GPT", "Selenium", "Playwright", "Jira API"],
+          "points": [
+            "💡 Problem: Writing & maintaining test cases is time-consuming.",
+            "🎯 Impact: Saves 30-50% time in test case creation, ensures better test coverage."
+          ]
+        },
+        {
+          "title": "Unified Test Reporting & Smart Dashboard",
+          "tagline": "A real-time dashboard that aggregates test results from Selenium, JMeter, and CI/CD pipelines into one central dashboard with alerts for failures.",
+          "tech": ["Python", "Grafana", "ELK Stack", "Datadog API"],
+          "points": [
+            "💡 Problem: Test reports are scattered across multiple tools.",
+            "🎯 Impact: Reduces debugging time by 40%, provides a single view of test health."
+          ]
+        },
+        {
+          "title": "CI/CD Pipeline with Smart Test Execution",
+          "tagline": "An AI/ML approach to select only relevant tests based on recent code changes.",
+          "tech": ["Python", "GitHub Actions", "Jenkins", "Docker", "Kubernetes"],
+          "points": [
+            "💡 Problem: Running all tests in every build wastes time.",
+            "🎯 Impact: Reduces test execution time by 40-70%, speeds up releases."
+          ]
+        },
+        {
+          "title": "Performance Testing & Auto Scaling for High-Traffic APIs",
+          "tagline": "An automated load testing framework that detects performance bottlenecks and auto-scales based on load.",
+          "tech": ["JMeter", "Locust", "Python", "AWS Lambda", "Terraform"],
+          "points": [
+            "💡 Problem: APIs slow down under heavy traffic.",
+            "🎯 Impact: Boosts API response time by 50%, ensures zero downtime under high load."
+          ]
+        }
+      ]
+    },
+    "sdet": {
+      "role": "Software Developer In Test",
+      "typingTexts": [
+        "Software Developer Engineer in Test",
+        "SDET Automation Engineer"
+      ],
+      "heroTagline": "I break software before your users do — automation, CI/CD, and quality engineering at scale.",
+      "stats": [
+        { "value": "2+", "label": "Years Experience" },
+        { "value": "90%+", "label": "Test Coverage" },
+        { "value": "55%", "label": "Faster Test Execution" },
+        { "value": "48%", "label": "Infra Cost Saved" }
+      ],
+      "about": [
+        "**🚀 SDET** – Automation Engineer at Enphase, specializing in test automation, CI/CD, and performance optimization. I have developed, maintained, and executed automated test scripts for Web & Mobile applications using Selenium, Appium, and Playwright, achieving 90%+ test coverage across multiple projects. My expertise extends to integration, regression, and performance testing, ensuring software stability and reliability.",
+        "**⚡ DevOps & Test Automation Innovator** – Implemented CI/CD pipelines, reducing deployment risks and ensuring zero critical defects post-release. Leveraged Docker for containerization, optimizing test environments for consistency and scalability.",
+        "**💡 Passionate** about large-scale distributed systems, automation frameworks, and performance optimization. A strong advocate of shift-left testing, ensuring early defect detection and seamless integration of automation into development lifecycles.",
+        "**🎓 Computer Science & Engineering** graduate from Vellore Institute of Technology with a strong foundation in software development, automation strategies, and problem-solving.",
+        "**🏋️‍♂️ Beyond tech** – I'm an athlete, passionate about trekking, swimming, squash, bodybuilding, public speaking, and constantly learning new technologies. Actively involved in tech meet-ups, knowledge sharing, and upskilling.",
+        "**🔹 Mission** – To drive innovation in test automation, DevOps, and software quality, ensuring scalable, high-performing solutions for modern tech ecosystems."
+      ],
+      "skills": [
+        {
+          "category": "Test Automation & QA Engineering",
+          "items": ["Selenium", "Appium", "Cypress", "Playwright", "API Testing (REST/SOAP)", "Postman", "RestAssured", "TestNG", "Maven", "PyTest", "JUnit", "JMeter Performance Testing"]
+        },
+        {
+          "category": "Programming & Scripting",
+          "items": ["Java", "Python", "NodeJs", "FastAPI", "MySQL", "MongoDB", "Git / GitHub / BitBucket"]
+        },
+        {
+          "category": "Agile, DevOps & CI/CD",
+          "items": ["Jenkins", "Kubernetes", "Docker", "GitHub Actions", "AWS", "Agile Practices"]
+        },
+        {
+          "category": "Problem-Solving & Analytics",
+          "items": ["Data Structures & Algorithms", "Code / SQL Optimization", "Optimization Strategies", "DataDog Monitoring", "Cryptographic Methods"]
+        }
+      ],
+      "experience": [
+        {
+          "role": "Associate Software Engineer",
+          "company": "Enphase Energy",
+          "location": "Bengaluru, Karnataka, India",
+          "period": "Jul 2023 – Present",
+          "bullets": [
+            "Developed, maintained, and executed automated test scripts for Web applications and Mobile apps using Selenium, Appium, and other appropriate tools, achieving over 90% test coverage in 3 different projects ENLM, ENLA and over 70% in ENHO projects.",
+            "Performed integration testing, regression testing, and performance testing to ensure the stability and reliability of our software products, including load tests for real-time APIs using JMeter and DataDog, reducing sanity test execution time from 45 minutes to 20 minutes.",
+            "Implemented and maintained CI/CD pipelines for automated testing, resulting in zero critical defects post version 23.1 due to continuous execution and monitoring. Achieved over 90% coverage in sanity and regression suites, improving two suites to over 85%.",
+            "Monitored and analyzed test results, tracked defects, and reported testing progress, prioritizing and following up on 40 out of 58 high-priority JIRA tickets with the CS team and raising 43 JIRA defects for ENLM and 4 for GS projects within 6 months.",
+            "Automated several routine tasks, including bug creation, pushing summary data to the database, and fetching high-priority tickets and issues to reduce manual workload, minimize errors, and allow the team to focus on more strategic activities.",
+            "Utilized state-of-the-art cryptographic methods such as Digital Signature Creation, RSA, and AES for encryption, and the Deflate algorithm for compression by reverse-engineering existing decryption and decompression methods from Java/Ruby to create robust compression and encryption algorithms in Python.",
+            "Wrote and optimized SQL queries to ensure rapid and efficient data retrieval.",
+            "Designed and implemented a dashboard to provide real-time status updates on health reports for multiple projects in the production environment. This tool significantly improved monitoring capabilities and facilitated quicker decision-making for the team."
+          ]
+        },
+        {
+          "role": "Software Engineer Intern",
+          "company": "Enphase Energy",
+          "location": "Bengaluru, Karnataka, India",
+          "period": "Jan 2023 – Jun 2023",
+          "bullets": [
+            "Able to script test cases with coverage and maintenance with improved execution speed of scripts. Enhanced load testing capabilities (through JMeter and DataDog): set up and scripted load tests for real-time APIs and measured performance.",
+            "Achieved 90%+ sanity and regression suite coverage, improved 2 suites to 85%+ range, executed suites and analyzed them on releases.",
+            "Automated other necessary tasks like Jira tasks and other small execution tasks. Gained knowledge in mobile testing to increase testing knowledge for multiple devices.",
+            "Able to do end-to-end testing for many modules in web automation, API, and mobile."
+          ]
+        },
+        {
+          "role": "Research And Development Intern",
+          "company": "Samsung R&D Institute India",
+          "location": "Bangalore",
+          "period": "Mar 2022 – Dec 2022",
+          "bullets": [
+            "Developed an approach to automatically generate valid test cases for given system code.",
+            "Used GTest Testing Framework, Decision-to-decision path graph, and Data Flow testing technique."
+          ]
+        },
+        {
+          "role": "Backend Web Developer Intern",
+          "company": "Engineer's Cradle",
+          "location": "Remote",
+          "period": "Jan 2022 – Mar 2022",
+          "bullets": [
+            "Developed secure authentication systems using Passport.js and Express.js, handling authentication for over 10,000 users across multiple applications.",
+            "Implemented and optimized session management and user authorization flows, reducing authentication-related bugs by 30%.",
+            "Integrated third-party OAuth providers (Google, Facebook, etc.) for seamless user onboarding, increasing sign-up efficiency by 40%.",
+            "Enhanced security protocols, contributing to a reduction in unauthorized access incidents."
+          ]
+        },
+        {
+          "role": "Python Development Associate",
+          "company": "The Entrepreneurship Network",
+          "location": "Remote",
+          "period": "Jul 2021 – Oct 2021",
+          "bullets": [
+            "Developed Python-based solutions for various projects, enhancing functionality and performance."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "AI-Powered Test Case Generation & Optimization",
+          "tagline": "An AI-powered script that analyzes past defects and auto-generates optimized test cases.",
+          "tech": ["Python", "OpenAI GPT", "Selenium", "Playwright", "Jira API"],
+          "points": [
+            "💡 Problem: Writing & maintaining test cases is time-consuming.",
+            "🎯 Impact: Saves 30-50% time in test case creation, ensures better test coverage."
+          ]
+        },
+        {
+          "title": "Self-Healing Automation Framework",
+          "tagline": "A self-healing framework that detects broken locators and automatically updates them using AI-based XPath predictions.",
+          "tech": ["Selenium", "Appium", "Python", "Machine Learning", "TensorFlow"],
+          "points": [
+            "💡 Problem: UI locators break often in test automation.",
+            "🎯 Impact: Reduces flaky test failures by 60%, saves debugging time."
+          ]
+        },
+        {
+          "title": "Performance Testing & Auto Scaling for High-Traffic APIs",
+          "tagline": "An automated load testing framework that detects performance bottlenecks and auto-scales based on load.",
+          "tech": ["JMeter", "Locust", "Python", "AWS Lambda", "Terraform"],
+          "points": [
+            "💡 Problem: APIs slow down under heavy traffic.",
+            "🎯 Impact: Boosts API response time by 50%, ensures zero downtime under high load."
+          ]
+        },
+        {
+          "title": "Unified Test Reporting & Smart Dashboard",
+          "tagline": "A real-time dashboard that aggregates test results from Selenium, JMeter, and CI/CD pipelines into one central dashboard with alerts for failures.",
+          "tech": ["Python", "Grafana", "ELK Stack", "Datadog API"],
+          "points": [
+            "💡 Problem: Test reports are scattered across multiple tools.",
+            "🎯 Impact: Reduces debugging time by 40%, provides a single view of test health."
+          ]
+        },
+        {
+          "title": "CI/CD Pipeline with Smart Test Execution",
+          "tagline": "An AI/ML approach to select only relevant tests based on recent code changes.",
+          "tech": ["Python", "GitHub Actions", "Jenkins", "Docker", "Kubernetes"],
+          "points": [
+            "💡 Problem: Running all tests in every build wastes time.",
+            "🎯 Impact: Reduces test execution time by 40-70%, speeds up releases."
+          ]
+        },
+        {
+          "title": "CryptSend: Secure Web-Based File Sharing",
+          "tagline": "A secure web-based file-sharing platform using advanced cryptographic algorithms to ensure confidentiality and integrity of shared files.",
+          "tech": ["Django", "HTML/CSS", "JavaScript", "PostgreSQL"],
+          "points": [
+            "💡 Problem: Traditional file-sharing services lack end-to-end encryption, exposing sensitive data to security risks.",
+            "✅ Ensured secure file sharing with zero third-party access.",
+            "✅ End-to-end encryption prevents man-in-the-middle attacks.",
+            "✅ User-friendly platform with seamless encryption & decryption."
+          ]
+        }
+      ]
+    }
+  }
+}

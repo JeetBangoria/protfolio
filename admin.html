@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Admin — Jeet Bangoria</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0B1120">
+  <link href="assets/img/me.png" rel="icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link href="assets/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="ambient" aria-hidden="true">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+  </div>
+
+  <!-- ======= Connect screen ======= -->
+  <section class="auth-screen" id="auth-screen">
+    <div class="auth-card">
+      <div class="auth-brand">
+        <span class="brand-mark">JB</span>
+        <h1>Portfolio Admin</h1>
+      </div>
+      <p class="auth-sub">Edit your portfolio content from any device. Changes are committed straight to
+        <strong>JeetBangoria/protfolio</strong> and go live on GitHub Pages within a minute or two.</p>
+
+      <label class="field">
+        <span class="field-label">GitHub Personal Access Token</span>
+        <input type="password" id="token-input" placeholder="github_pat_…" autocomplete="off" spellcheck="false">
+      </label>
+
+      <button class="btn btn-primary btn-block" id="connect-btn">Connect</button>
+      <p class="auth-error" id="auth-error" hidden></p>
+
+      <details class="auth-help">
+        <summary>How do I get a token? (one-time setup)</summary>
+        <ol>
+          <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank"
+              rel="noopener">github.com → Settings → Fine-grained tokens</a></li>
+          <li>Name: <code>portfolio-admin</code> · Expiration: 1 year</li>
+          <li>Repository access: <strong>Only select repositories → protfolio</strong></li>
+          <li>Permissions → Repository permissions → <strong>Contents: Read and write</strong></li>
+          <li>Generate, copy the token, and paste it above</li>
+        </ol>
+        <p>The token is stored only in this browser (localStorage) and sent only to <code>api.github.com</code>.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ======= Editor ======= -->
+  <section class="editor" id="editor" hidden>
+
+    <header class="editor-header">
+      <div class="editor-header-inner">
+        <div class="editor-title">
+          <span class="brand-mark">JB</span>
+          <div>
+            <h1>Portfolio Admin</h1>
+            <p class="mono" id="editor-status">Loaded</p>
+          </div>
+        </div>
+        <div class="editor-actions">
+          <button class="btn btn-ghost btn-sm" id="download-btn" title="Download a backup of content.json">Backup</button>
+          <button class="btn btn-ghost btn-sm" id="logout-btn">Log out</button>
+        </div>
+      </div>
+
+      <nav class="tabs" id="tabs">
+        <button class="tab active" data-tab="shared">Shared Info</button>
+        <button class="tab" data-tab="sde">SDE Page</button>
+        <button class="tab" data-tab="sdet">SDET Page</button>
+        <button class="tab" data-tab="raw">Raw JSON</button>
+      </nav>
+    </header>
+
+    <main class="editor-main">
+      <div id="panel-shared" class="panel"></div>
+      <div id="panel-sde" class="panel" hidden></div>
+      <div id="panel-sdet" class="panel" hidden></div>
+      <div id="panel-raw" class="panel" hidden>
+        <div class="card">
+          <h2>Raw JSON</h2>
+          <p class="hint">Power-user mode — edits here replace the whole content file. Applied when you tap
+            <strong>Apply JSON</strong>, then use Save &amp; Publish as usual.</p>
+          <textarea id="raw-json" class="raw-json" spellcheck="false"></textarea>
+          <button class="btn btn-ghost" id="apply-raw-btn">Apply JSON</button>
+          <p class="hint" id="raw-error"></p>
+        </div>
+      </div>
+    </main>
+
+    <div class="savebar">
+      <div class="savebar-inner">
+        <p id="save-status" class="mono">Unsaved changes are kept on this screen until you publish.</p>
+        <button class="btn btn-primary" id="save-btn">
+          Save &amp; Publish
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="assets/js/admin.js" defer></script>
+</body>
+
+</html>
